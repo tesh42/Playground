@@ -3,10 +3,10 @@ Nsf.TaskManager
 
 This project contains implementation of the task manager that could execute tasks, which have high, normal and low priorities.
 
-* Each task that has Normal priority is executed after three tasks with High being processed.
+* Each task that has Normal priority is executed after three tasks with High priority being processed.
 * Tasks that have Low priority are executed when there are no tasks with higher priority.
 
-When stop is requested, the task manager waits for completion of the tasks that was added to processing queue.
+When stop is requested, the task manager waits for completion of the tasks that was added to the processing queue.
 
 ##How to use
 Creates task manager that is using 4 task executors and general task storage:
